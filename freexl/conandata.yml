@@ -1,12 +1,12 @@
 sources:
-  "2.1.0-dev":
-    url: "https://www.gaia-gis.it/fossil/freexl/tarball/04b9537528/FreeXL-04b9537528.tar.gz"
-    sha256: "36721280aa89f411f7326dd141efcf424f28df42e333513f740b62dce7096788"
+  "2.0.99.cci.20250526":
+    url: "https://github.com/jasp-stats/freexl/archive/3c849e2424ac15dc5417970fbb36ca5b9a191983.tar.gz"
+    sha256: "8983fe8e7c0807fb916b7c3d385145728b3e161fa2b6e435e6acf92ed6c77f11"
   "2.0.0":
     url: "http://www.gaia-gis.it/gaia-sins/freexl-sources/freexl-2.0.0.tar.gz"
     sha256: "176705f1de58ab7c1eebbf5c6de46ab76fcd8b856508dbd28f5648f7c6e1a7f0"
 patches:
-  "2.1.0-dev":
-    - patch_file: "patches/fix-findCols-freexl-2.1.0-dev.patch"
+  "2.0.99.cci.20250526":
+    - patch_file: "patches/fix-nmake-2.0.0.patch"
   "2.0.0":
     - patch_file: "patches/fix-nmake-2.0.0.patch"
